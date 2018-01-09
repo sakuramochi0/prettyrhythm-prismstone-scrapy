@@ -11,12 +11,16 @@
 
 ## 使い方
 
-### `prismstone.json` の作り方
+### `prismstone.json`, `brand.json` の作り方
 1. [Python3](https://www.python.org/) をインストールする。
 1. `$ pip install -r requirements.txt`
 1. `$ scrapy runspider main.py -o prismstone.json`
+1. `$ scrapy runspider brand.py -o brand.json`
 
-### `prismstone.md` に変換する方法
+### `prismstone.md`, `brand.md` に変換する方法
 1. [Node.js](https://nodejs.org/ja/) をインストールする。
 1. `$ npm install`
 1. `$ npm run convert`
+
+## バグ
+- 同じアイテムを重複して取得してしまう問題があります。リポジトリにあるデータは、重複を手動で取り除いたものになっています。
