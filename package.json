@@ -1,0 +1,27 @@
+{
+  "name": "prettyrhythm-prismstone-scrapy",
+  "version": "1.0.0",
+  "description": "プリズムストーンリスト (http://www.prettyrhythm.jp/list/index.php) をスクレイピングする scrapy のコード。 プリズムストーンリストのページが壊れてしまっているので(2018/01/09現在)、正しく検索できるページを作るための準備として作りました。",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "cat prismstone.json | ramda 'sort-by prop \\id' | md-table > prismstone.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sakuramochi0@github.com/sakuramochi0/prettyrhythm-prismstone-scrapy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakuramochi0/prettyrhythm-prismstone-scrapy/issues"
+  },
+  "homepage": "https://github.com/sakuramochi0/prettyrhythm-prismstone-scrapy#readme",
+  "dependencies": {
+    "markdown-table-cli": "^1.0.1",
+    "ramda-cli": "^2.0.1"
+  }
+}
