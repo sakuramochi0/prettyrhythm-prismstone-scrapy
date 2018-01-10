@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert": "cat prismstone.json | ramda 'sort-by prop \\id' | md-table > prismstone.md; cat brand.json | ramda 'sort-by prop \\id' | md-table > brand.md"
+    "convert": "convert.sh"
   },
   "repository": {
     "type": "git",
