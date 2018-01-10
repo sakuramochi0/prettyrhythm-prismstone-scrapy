@@ -7,7 +7,7 @@
 ## コードのライセンス
 - [GNU General Public License v3.0](LICENSE)
 
- ただし、プリズムストーンのデータ [prismstone.json](prismstone.json) と [prismstone.md](prismstone.md) と [prismstone_with_brand.md](prismstone_with_brand.md) を除く。
+ ただし、プリズムストーンのデータ `*.json` と `*.md` を除く。
 
 ## 使い方
 
