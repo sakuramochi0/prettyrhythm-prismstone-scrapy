@@ -5,6 +5,8 @@
 
 - 閲覧用: [prismstone_with_brand.md](prismstone_with_brand.md)
 - GitHub Pages hosted JSON: https://sakuramochi0.github.io/prettyrhythm-prismstone-scrapy/prismstone_with_brand.json
+- You can also use the image mirror storage created for the archive: https://storage.googleapis.com/prettyrhythm-prismstone/
+  - i.e.: https://storage.googleapis.com/prettyrhythm-prismstone/s05-rad-03r-l.gif
 
 ## コードのライセンス
 
