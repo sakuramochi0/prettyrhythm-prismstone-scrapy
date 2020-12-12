@@ -1,10 +1,12 @@
 # prettyrhythm-prismstone-scrapy
 プリズムストーンリスト (http://www.prettyrhythm.jp/list/index.php) のストーンの情報を、インターネットアーカイブからスクレイピングするコード。プリズムストーンリストのページが壊れてしまっているので(2018/01/09現在)、正しく検索できるページを作るための準備として作りました。
 
+2020年12月13日に確認したら、ウェブサイトのプリズムストーンリストのページが消されてしまっているみたいでした。画像のURLにもアクセスできなくなってしまったので、Google Cloud StorageのURLを使用したリストを作成しました。
+
 ## プリズムストーンリスト
 
-- 閲覧用: [prismstone_with_brand.md](prismstone_with_brand.md)
-- GitHub Pages hosted JSON: https://sakuramochi0.github.io/prettyrhythm-prismstone-scrapy/prismstone_with_brand.json
+- 閲覧用: [prismstone_with_brand_gcs.md](prismstone_with_brand_gcs.md)
+- GitHub Pages hosted JSON: https://sakuramochi0.github.io/prettyrhythm-prismstone-scrapy/prismstone_with_brand_gcs.json
 - You can also use the image mirror storage created for the archive: https://storage.googleapis.com/prettyrhythm-prismstone/
   - i.e.: https://storage.googleapis.com/prettyrhythm-prismstone/s05-rad-03r-l.gif
 
